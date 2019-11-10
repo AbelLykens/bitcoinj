@@ -315,6 +315,7 @@ public final class MonetaryFormat {
         this.codes[0] = useBitcoinSymbol ? SYMBOL_BTC : CODE_BTC;
         this.codes[3] = useBitcoinSymbol ? SYMBOL_MBTC : CODE_MBTC;
         this.codes[6] = useBitcoinSymbol ? SYMBOL_UBTC : CODE_UBTC;
+        this.codes[8] = CODE_SAT;
         this.codeSeparator = ' ';
         this.codePrefixed = true;
     }
